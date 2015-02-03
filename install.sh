@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 command -v brew >/dev/null 2>&1 || \
     { echo >&2 "Aborting: Homebrew is not installed."; exit 1; }
